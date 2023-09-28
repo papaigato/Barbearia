@@ -76,3 +76,38 @@ body {
         border-bottom: 1px solid #fff;
       }
       
+
+
+
+/* .card{
+  width: 12em;
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+  border-radius: 0.3em;
+  background-color: var(--light);
+  box-shadow: 1px 1px 5px 1px var(--black) ;
+}
+.container{
+  height: 22em;
+  display: flex;
+  gap: 1em;
+}
+.imagem {
+  max-width: 5em;
+  width: 5em;
+  margin-bottom: 0.8em 0;
+}
+
+.descricao{
+  text-indent: 1.5em;
+  font-size: 12px;
+  margin-bottom: -0.8em;
+}
+
+.preco{
+  font-size: 30px;
+} */
