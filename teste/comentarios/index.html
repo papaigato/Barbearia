@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Comentários</title>
+</head>
+<body>
+  <div class="comment-section">
+    <h2>Comentários</h2>
+    <ul class="comment-list" id="commentList">
+      <!-- Comentários serão exibidos aqui -->
+    </ul>
+    <div class="comment-form">
+      <h3>Deixe um Comentário</h3>
+      <form id="commentForm">
+        <div class="form-group">
+          <label for="author">Seu Nome:</label>
+          <input type="text" id="author" name="author" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Seu Comentário:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+        </div>
+        <button type="submit">Comentar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

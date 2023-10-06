@@ -1,0 +1,64 @@
+
+.container_burgue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.menu_burgue {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu_burgue li {
+  margin-left: 20px;
+}
+
+.menu_burgue li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu_burgue li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .menu_burgue {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu_burgue.open {
+    display: flex;
+  }
+}
