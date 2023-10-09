@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .location-section {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .location-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .location-section button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .location-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .location-section button:active {
+    background-color: #004080;
+  }
+  
+  #location {
+    margin-top: 20px;
+  }
+  

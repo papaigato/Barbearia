@@ -1,0 +1,15 @@
+.localizacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: black;
+    border: 10px;
+}
+
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+}

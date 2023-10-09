@@ -1,6 +1,9 @@
 @import url(color.css);
 @import url(card.css);
 @import url(menu_hambuguer.css);
+@import url(card_comentario.css);
+@import url(serviço.css);
+@import url(localização.css);
 
 * {
   padding: 0;
@@ -9,7 +12,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to right,#000000 60%, #0000008f 90%), url(../image/DreamShaper_v7_barbearia_backgraund_realist_1.jpg);
@@ -110,6 +113,23 @@ footer a {
 footer a:hover {
   border-bottom: 1px solid #fff;
 }
+
+.funcionarios {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.funcionarios h2 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+
 
 
 /* .card{

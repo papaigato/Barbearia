@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .comment-card {
+    display: flex;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-avatar {
+    width: 100px;
+    height: 100px;
+    /* overflow: hidden; */
+    margin-right: 15px;
+  }
+  
+  .user-avatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .comment-details {
+    flex-grow: 1;
+  }
+  
+  .user-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .comment-text {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  /* Adicionando um pouco de estilo extra para torná-lo "pika" */
+  .comment-card {
+    border: 2px solid #FF9800;
+  }
+  
+  .user-name {
+    font-size: 1.2em;
+  }
+  
+  .comment-text {
+    font-size: 1.1em;
+  }
+
+  .commentario_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+  }
+  
