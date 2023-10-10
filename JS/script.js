@@ -23,5 +23,5 @@ function submitForm(event) {
   alert(alertMessage);
 
   // Redireciona para a seção desejada
-  window.location.href = "/index.html#Location";
+  window.location.href = "../index.html";
 }
