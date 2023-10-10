@@ -4,6 +4,7 @@
 @import url(card_comentario.css);
 @import url(serviço.css);
 @import url(localização.css);
+@import url(responsividade.css);
 
 * {
   padding: 0;
@@ -55,6 +56,9 @@ header {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
+}
+header nav{
+  position: fixed;
 }
 
 header nav ul {
@@ -138,13 +142,60 @@ footer a:hover {
   width: 90px;
 }
 .product img{
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+
 }
 
 .container h2{
   text-align: center;
 }
+
+
+.localizacao1 {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+.text-card{
+  text-align: center;
+  color: black;
+
+}
+
+.link_volta_home img{
+  height: 50px;
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+button#top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button#top-button:hover {
+  background-color: darkorange;
+}
+
+.container  {
+  color: white;
+}
+
 
 /* .card{
   width: 12em;
